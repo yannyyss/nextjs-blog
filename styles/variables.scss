@@ -1,0 +1,16 @@
+//Colors
+$color-dark-green: #13805a;
+$color-medium-dark-green: #0a9264;
+$color-medium-light-green: #1aac7a;
+$color-light-green: #2fc27d;
+
+//Fonts
+$font-stack: "Oswald";
+$font-size: "16px";
+$font-weight: 600;
+
+//Backgrounds
+
+@mixin background($background: "#cdd5ca") {
+    background-color: $background;
+}

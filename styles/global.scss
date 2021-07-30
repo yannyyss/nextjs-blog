@@ -1,0 +1,48 @@
+/* Start Partials */
+// @use 'variables'; //Not working at the moment
+/* End Partials */
+
+/* Start Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* End Imports */
+
+:root {
+  //Colors
+  --color-dark-green: #13805a;
+  --color-medium-dark-green: #0a9264;
+  --color-medium-light-green: #1aac7a;
+  --color-light-green: #2fc27d;
+  //fonts
+  --font-stack: "Oswald";
+  --font-size: "16px";
+  --font-weight: 600;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-stack);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--color-medium-light-green);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
